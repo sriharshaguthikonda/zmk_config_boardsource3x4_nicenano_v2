@@ -9,15 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-
-#define DEFAULT 0
-#define NUM     1
-#define LOWER   2
-#define RAISE   3
-
-
-
-
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -25,7 +16,7 @@
         default_layer {
 
             bindings = <
-   &kp N7  &kp C_PREV   &kp C_PP &kp C_NEXT
+   &kp Y  &kp C_PREV   &kp C_PP &kp C_NEXT
    &bt BT_CLR &none        &sys_reset       &bootloader
    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
             >;
